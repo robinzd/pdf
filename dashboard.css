@@ -1,0 +1,251 @@
+/* Trems And Condition Styles Starts */
+.modal-body {
+    height: 500px;
+    overflow-y: auto;
+}
+
+#ack_heading1 {
+    text-align: center !important;
+    font-size: 16px !important;
+    text-decoration: underline !important;
+    font-weight: bolder !important;
+    color: black !important;
+    font-family: sans-serif !important;
+}
+
+#ack_span1 {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif !important;
+
+}
+
+#spanned {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif !important;
+    font-weight: bold !important;
+}
+
+#ack_para1 {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif !important;
+}
+
+#space {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif !important;
+    margin-left: 3px !important;
+}
+
+#ack_para2 {
+    font-size: 14px !important;
+    color: black !important;
+    margin-top: 5px !important;
+    margin-left: 30px !important;
+    font-family: sans-serif !important;
+}
+
+#ack_para3 {
+    font-size: 14px !important;
+    color: black !important;
+    margin-top: 5px !important;
+    margin-left: 10px !important;
+    font-family: sans-serif !important;
+}
+
+#whereas {
+    margin-left: 5% !important;
+    font-family: sans-serif !important;
+}
+
+#ack_points3 {
+    font-size: 14px !important;
+    color: black !important;
+    margin-left: 32px !important;
+    font-family: sans-serif;
+}
+
+#ol_list1 {
+    margin-top: 5px !important;
+    font-size: 10px !important;
+}
+
+#ack_points2 {
+    margin-top: 5px !important;
+}
+
+#inside_heading1 {
+    margin-top: 5px !important;
+    font-size: 14px !important;
+    font-family: sans-serif !important;
+    font-weight: 100 !important;
+}
+
+#inside_para1 {
+    margin-top: 5px !important;
+    color: black !important;
+    font-size: 14px !important;
+    font-family: sans-serif !important;
+}
+
+#ack_heading3 {
+    margin-top: 10px;
+    font-size: 14px !important;
+    font-family: sans-serif !important;
+    color: black !important;
+}
+
+#paragraph {
+    margin-left: 14px !important;
+    font-size: 14px !important;
+    font-family: sans-serif !important;
+    color: black !important;
+}
+
+#termi_para1 {
+    font-size: 14px !important;
+    font-family: sans-serif !important;
+    color: black !important;
+    margin-left: 10px !important;
+}
+
+#confi_para1 {
+    font-size: 14px !important;
+    font-family: sans-serif !important;
+    color: black !important;
+    margin-left: 10px !important;
+}
+
+#termination {
+    margin-top: 15px !important;
+}
+
+#general {
+    margin-top: 10px !important;
+}
+
+.mark_para {
+    margin-top: 5px !important;
+
+}
+
+.margin_para {
+    margin-top: 5px !important;
+}
+
+#acknow {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+}
+
+#term {
+    margin-top: 10px !important;
+}
+
+#ack_points1 {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif;
+    margin-top: 5px !important;
+}
+
+#comps_points {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif;
+    margin-left: 5px !important;
+}
+
+#subheading1 {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif;
+    margin-left: 5px !important;
+    margin-top: 5px !important;
+    text-align: justify !important;
+}
+
+#before5 {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif;
+    margin-top: 5px !important;
+    text-align: justify !important;
+}
+
+
+
+#subheading2 {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif;
+    margin-left: 5px !important;
+    margin-top: 5px !important;
+}
+
+#subheading {
+    margin-left: 5px !important;
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif;
+    margin-top: 5px !important;
+}
+
+ol {
+    counter-reset: item;
+}
+
+ol li {
+    display: block;
+    position: relative;
+}
+
+ol li:before {
+    content: counters(item, ".")".";
+    counter-increment: item;
+    position: absolute;
+    margin-right: 100%;
+    right: 10px;
+    /* space between number and text */
+    font-weight: bolder !important;
+}
+
+.whereas {
+    margin-left: 25px !important;
+}
+
+#before1 {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif !important;
+}
+
+#before2 {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif;
+    margin-left: 5px !important;
+    margin-top: 5px !important;
+    text-align: justify !important;
+}
+
+#before3 {
+    margin-left: 5px !important;
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif;
+    margin-top: 5px !important;
+}
+
+#before4 {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: sans-serif;
+    margin-left: 5px !important;
+    margin-top: 5px !important;
+}
+
+/* Trems And Condition Styles Ends */
