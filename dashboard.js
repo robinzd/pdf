@@ -13,22 +13,32 @@ $(document).ready(function() {
 
 // Terms And Condition Javascript Starts //
 $(document).on("click", ".agreee", function() {
-    const element = document.getElementById("acknow");
+    const element = document.getElementById("acknow1");
     window.jsPDF = window.jspdf.jsPDF;
-    var elementHTML = document.getElementById("acknow");
-    console.log(elementHTML);
-    var doc = new jsPDF();
-    doc.html(elementHTML, {
+    var doc = new jsPDF({
+        orientation: 'p',
+        unit: 'mm',
+        format: 'a4',
+        putOnlyUsedFonts:true,
+         
+        });
+    doc.html(element, {
         callback: function(doc) {
             // Save the PDF  
             var out = doc.output();
             var dataUrl = 'data: application/pdf;base64,' + btoa(out);
+            console.log(dataUrl);
             doc.save('Agreement_document.pdf');
         },
-        x: 5,
+        x: 3,
         y: 10,
         autoPaging:'text',
         margin: [15,18,20,18],
+        html2canvas: {
+            allowTaint: true,
+            letterRendering: true,
+            logging: false,
+        },
         width: 170, //target width in the PDF document
         windowWidth: 700, //window width in CSS pixels
     });
